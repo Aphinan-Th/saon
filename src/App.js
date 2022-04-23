@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Register from './login/Register'
-
+import Login from './login/Login'
+// import Register from './login/Register'
+// import Firstpage from './indexPage/Firstpage';
 function App() {
-  const click = () => {
-    console.log("clicked")
-  }
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -23,6 +22,7 @@ function App() {
         </a>
       </header> */}
       <Register></Register>
+      <Login></Login>
     </div>
   );
 }

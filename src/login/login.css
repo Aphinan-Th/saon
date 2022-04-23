@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: aqua;
+    background-image: url("empty-dark-room-modern-futuristic-sci-fi-background-3d-illustration.jpg");
 }
 .form {
     display: flex;
@@ -18,22 +18,20 @@
     justify-content:center;
 
 }
-.myInput{
-    border :solid 1px #999;
+#myInputer{
     text-align: left;
-    border-radius :8px;
-    justify-content: center;
-    padding: 10px;
-    
-
+    border-radius: 50px;
+    border: 15px;
+    padding: 15px;
 }
+
 .myLabel{
     margin-top: 16px; 
     margin-left: 16px;
     text-align: left;
 }
 .myButton{
-    border-radius: 999px;
+    border-radius: 50px;
     background-color: rgb(181, 112, 255);
     margin-top : 16px;
     border: none;
@@ -44,6 +42,19 @@
 .myButton:hover{
     background-color:rgb(3, 34, 46);
 }
+
+.myactionLabel {
+    margin-top: 12px; 
+    margin-left: 42%;
+    width: 0%;
+    color: #999;
+}
+
+.myactionLabel:hover {
+    color: black;
+    cursor: pointer;
+}
+
 #submit-button{
     margin-top: 16px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./login.css"
+import "./register.css"
 import { Input } from 'react-rainbow-components';
 import { Button } from 'react-rainbow-components';
 
@@ -42,10 +42,11 @@ function LoginPage() {
   return (
     <div className="container">
         <form className='form' onSubmit={onSubmit}>
-            <h1>Register</h1>
+            <h1 className='registerLabel'>Register</h1>
             <label className="myLabel">Username</label>
             <Input
                 type="string"
+                class = "mynewInput"
                 id="input-component-1"
                 placeholder="Username.."
                 onChange={onChangeUsername}

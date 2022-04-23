@@ -20,6 +20,10 @@ function LoginPage() {
         console.log("submit");
     },[email,password]);
 
+    const onClickregister = () => {
+        console.log("registered")
+    }
+
   return (
     <div className="container">
         <form className='form' onSubmit={onSubmit}>
@@ -27,20 +31,21 @@ function LoginPage() {
             <label className="myLabel">Email</label>
             <Input
                 type="email"
-                id="input-component-1"
                 placeholder="Email.."
                 onChange={onChangeEmail}
                 className="rainbow-m-vertical_x-large rainbow-p-horizontal_medium rainbow-m_auto"
             />
             
             <label className="myLabel">
-                Password : 
+                Password
             </label>
            
-            <input className="myInput"
-                type="password" 
-                placeholder="password.." 
-                onChange={onChangePassword} 
+            <input 
+                id = "myInputer"
+                label="Input Paassword"
+                placeholder="Password"
+                type="password"
+                className="rainbow-p-around_medium"
             />
             
             <Button 
@@ -51,6 +56,7 @@ function LoginPage() {
                 placeholder="submit"
                 onClick={onSubmit}
             />
+            <textPath className = "myactionLabel"onClick={onClickregister}>Register</textPath>
         </form>
         
     </div>
