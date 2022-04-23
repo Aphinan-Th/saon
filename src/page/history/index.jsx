@@ -69,33 +69,36 @@ function History() {
         contentLabel="Example Modal"
       >
         <h1>ร้าน</h1>
-        <label className="label">ชื่อร้าน : </label>
+        <label className="check-his">ชื่อร้าน : </label>
         <br></br>
         <inform
           type="string"
           id="input-component-1"
           placeholder="Lastname"
+          className="check-his"
         ></inform>
         <input
           type="checkbox"
           id="toDoList1"
           name="toDoList1"
           value="toDoList1"
+          className="check-his"
         ></input>
-        <label for="toDoList">โซน</label>
+        <label for="toDoList" className="check-his">โซน</label>
         <br></br>
         <input
           type="checkbox"
           id="toDoList2"
           name="toDoList2"
           value="toDoList2"
+          className="check-his"
         ></input>
-        <label for="toDoList">โต๊ะ</label>
+        <label for="toDoList" className="check-his">โต๊ะ</label>
         <br></br>
-        <button type="submit" class="btn" onClick={onApprove}>
+        <button type="submit" class="btn-his" onClick={onApprove}>
           Approve
         </button>
-        <button class="btn cancel" onClick={closeModal}>
+        <button class="btn-cancel-his" onClick={closeModal}>
           Close
         </button>
       </Modal>

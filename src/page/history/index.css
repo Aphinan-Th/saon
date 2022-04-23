@@ -3,13 +3,15 @@
   flex-direction: column;
   max-width: 90vw;
   height: 90vh;
+  text-align: left;
   background-color: white;
   margin: 3rem;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  padding: 20px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .header-his {
-    background-color: #82F980;
-  }
+  background-color: #82f980;
+}
 ol.gradient-list {
   counter-reset: gradient-counter;
   list-style: none;
@@ -21,24 +23,46 @@ ol.gradient-list {
   width: fit-content;
 }
 
-.Modal-his{
-  position: absolute;
-  top: 250px;
-  left: 500px;
-  right: 500px;
-  bottom: 250px;
-  background-color: cyan;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.Modal-his {
+    position: absolute;
+    text-align: center;
+    border-radius: 16px;
+    top: 250px;
+    left: 500px;
+    right: 500px;
+    bottom: 250px;
+    background-color: #AFF9EB;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.check-his{
-    margin: auto;
-    font-family: "Kanit", sans-serif !important;
-    font-size: 25px;
-    border-radius: 16px;
-    margin: 4px 2px;
-    padding: 15px 25px;
-    text-align: center;
-  }
+.check-his {
+  margin: auto;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 25px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+}
+.btn-his {
+  margin: auto;
+  background-color: #22E00B;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.btn-cancel-his {
+  margin: auto;
+  background-color: red;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 20px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+}

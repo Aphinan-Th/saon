@@ -5,8 +5,9 @@
   height: 90vh;
   background-color: white;
   margin: 3rem;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  text-align: left;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 ol.gradient-list {
@@ -15,26 +16,13 @@ ol.gradient-list {
   margin: 1.75rem 0;
   padding-left: 1rem;
 }
-.li {
-  width: 40vw;
-  height: 5vh;
-  background: pink;
-  border-radius: 0 0.5rem 0.5rem 0.5rem;
-  counter-increment: gradient-counter;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  min-height: 3rem;
-  padding: 1rem 1rem 1rem 3rem;
-  position: relative;
-}
-
 .header-order {
-  background-color: gray;
+  background-color: plum;
 }
 
 .btn-order{
   margin: auto;
-  background-color: green;
+  background-color: #22E00B;
   font-family: "Kanit", sans-serif !important;
   font-size: 20px;
   margin: 4px 2px;
@@ -63,7 +51,7 @@ ol.gradient-list {
     left: 500px;
     right: 500px;
     bottom: 250px;
-    background-color: pink;
+    background-color: #DAC7F6;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 .check-order{
