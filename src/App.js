@@ -2,25 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import "./indexPage/Firstpage";
 import Firstpage from './indexPage/Firstpage';
+import Assign from './page/assign';
+import test from './page/test';
+import History from './page/history';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <Firstpage></Firstpage>
+      {/* <Firstpage></Firstpage> */}
+      <Assign></Assign>
+      {/* <History></History> */}
     </div>
   );
 }
