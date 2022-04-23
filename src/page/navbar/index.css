@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+
+.circle {
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(255, 255, 255, 0.1) 0 -5px 15px;
+}
+
+.circle:hover {
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  /* background: linear-gradient(to right, blue 50%, red 50%); */
+  /* background-size: 200% 100%; */
+  /* transition: all 2s ease; */
+}
+
+.circle:active {
+  box-shadow: inset rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(255, 255, 255, 0.1) 0px -5px 15px;
+}
+
+.form > *:hover {
+  color: gray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 6rem;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
