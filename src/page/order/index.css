@@ -1,0 +1,73 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flow;
+  }
+  
+  .circle {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .circle:hover {
+    background: linear-gradient(to right, pink 50%, red 50%);
+    background-size: 200% 100%;
+    transition: all 2s ease;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 7%;
+    height: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  .assign {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: 90%;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    height: 10%;
+    background: pink;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  }
+  .block {
+    width: 40vw;
+    height: 40vh;
+    background-color: white;
+    display: table-column;
+    margin: auto;
+    font-size: 1.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  ol.gradient-list {
+    counter-reset: gradient-counter;
+    list-style: none;
+    margin: 1.75rem 0;
+    padding-left: 1rem;
+  }
+  .li{
+      width: 40vw;
+      height: 5vh;
+      background: pink;
+      border-radius: 0 0.5rem 0.5rem 0.5rem;
+      counter-increment: gradient-counter;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      min-height: 3rem;
+      padding: 1rem 1rem 1rem 3rem;
+      position: relative;
+  }
