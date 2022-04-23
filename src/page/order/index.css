@@ -1,21 +1,12 @@
 .assign {
   display: flex;
   flex-direction: column;
-  max-width: 93vw;
+  max-width: 90vw;
   height: 90vh;
   background-color: white;
   margin: 3rem;
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-}
-
-.block {
-  width: 40vw;
-  height: 40vh;
-  background-color: pink;
-  display: table-column;
-  margin: auto;
-  font-size: 1.5em;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 ol.gradient-list {
@@ -37,12 +28,37 @@ ol.gradient-list {
   position: relative;
 }
 
-.container {
-    width: fit-content;
+.header-order {
+  background-color: gray;
 }
 
-.Modal {
+.btn-order{
+  margin: auto;
+  background-color: green;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 20px;
+  margin: 4px 2px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+
+}
+
+.btn-cancel-order{
+  margin: auto;
+  background-color: red;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 20px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+}
+.Modal-order{
     position: absolute;
+    text-align: center;
+    border-radius: 16px;
     top: 250px;
     left: 500px;
     right: 500px;
@@ -50,3 +66,12 @@ ol.gradient-list {
     background-color: pink;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
+.check-order{
+  margin: auto;
+  font-family: "Kanit", sans-serif !important;
+  font-size: 25px;
+  border-radius: 16px;
+  margin: 4px 2px;
+  padding: 15px 25px;
+  text-align: center;
+}

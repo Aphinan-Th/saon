@@ -9,7 +9,6 @@ import {
   MenuItem,
   Button,
 } from "react-rainbow-components";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
 const DataTable = [
@@ -44,7 +43,7 @@ function Order({ title }) {
   }
   return (
     <div>
-      <header className="header">
+      <header className="header-order">
         <h1>Order Page</h1>
       </header>
       <assign className="assign">
@@ -66,38 +65,41 @@ function Order({ title }) {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        // style={customStyles}
-        className="Modal"
+        className="Modal-order"
         contentLabel="Example Modal"
       >
         <h1>ร้าน</h1>
-        <label className="label">ชื่อร้าน : </label>
+        <label className="check-order">ชื่อร้าน : </label>
         <br></br>
         <inform
           type="string"
           id="input-component-1"
           placeholder="Lastname"
+          className="check-his"
         ></inform>
         <input
           type="checkbox"
           id="toDoList1"
           name="toDoList1"
           value="toDoList1"
+          className="check-order"
         ></input>
-        <label for="toDoList">โซน</label>
+        <label for="toDoList"
+         className="check-order">โซน</label>
         <br></br>
         <input
           type="checkbox"
           id="toDoList2"
           name="toDoList2"
           value="toDoList2"
+          className="check-order"
         ></input>
-        <label for="toDoList">โต๊ะ</label>
+        <label for="toDoList" className="check-order">โต๊ะ</label>
         <br></br>
-        <button type="submit" class="btn" onClick={onApprove}>
+        <button type="submit" class="btn-order" onClick={onApprove}>
           Approve
         </button>
-        <button class="btn cancel" onClick={closeModal}>
+        <button class="btn-cancel-order" onClick={closeModal}>
           Close
         </button>
       </Modal>

@@ -1,0 +1,44 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  height: 90vh;
+  background-color: white;
+  margin: 3rem;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.header-his {
+    background-color: #82F980;
+  }
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
+}
+
+.container {
+  width: fit-content;
+}
+
+.Modal-his{
+  position: absolute;
+  top: 250px;
+  left: 500px;
+  right: 500px;
+  bottom: 250px;
+  background-color: cyan;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.check-his{
+    margin: auto;
+    font-family: "Kanit", sans-serif !important;
+    font-size: 25px;
+    border-radius: 16px;
+    margin: 4px 2px;
+    padding: 15px 25px;
+    text-align: center;
+  }
