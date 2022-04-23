@@ -1,8 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import "./indexPage/Firstpage";
-import Firstpage from './indexPage/Firstpage';
-
+import Login from './login/Login'
+// import Register from './login/Register'
+// import Firstpage from './indexPage/Firstpage';
 function App() {
   return (
     <div className="App">
@@ -20,7 +18,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Firstpage></Firstpage>
+      <Login></Login>
     </div>
   );
 }

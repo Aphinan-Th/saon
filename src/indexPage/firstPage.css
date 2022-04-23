@@ -1,31 +1,71 @@
 .container {
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    display: flow;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flow;
 }
 
 .circle {
-    background-color: lightblue;
-    border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
-    margin: auto;
-    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  background-color: lightblue;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+
 
 .circle:hover {
-    background: linear-gradient(to right, blue 50%, red 50%);
-    background-size: 200% 100%;
-    transition: all 2s ease;
+    transition: border-color 2s, width duration, height duration;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    width: 7%;
-    height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+
+.menuChooser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 7%;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.informationBox {
+    display: flex;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 20%;
+    height: 100vh;
+}
+
+.userdatainfo {
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 60px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.datainfo {
+    background-color: aliceblue;
+}
+
+.acceptwork {
+    float: center;
+    margin: left;
+}
+
+.backbutton {
+    margin-top: 100px;
+    outline-style: solid;
+    background-color: rgb(217, 97, 97);
+    width: 80px;
+    height: 50px;
 }
