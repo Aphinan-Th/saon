@@ -6,14 +6,15 @@ import {
   MdDocumentScanner,
   MdFormatListBulleted,
   MdFace,
+  MdLogout,
 } from "react-icons/md";
 
-function Navbar() {
+function Navbar({children}) {
   const navigate = useNavigate();
 
   return (
     <div className="container">
-      <form className="form">
+      <div className="form">
         <div className="circle" onClick={() => navigate("/home")}>
           <MdHome size={"1.5rem"} />
         </div>
@@ -26,7 +27,27 @@ function Navbar() {
         <div className="circle" onClick={() => navigate("/profile")}>
           <MdFace size={"1.5rem"} />
         </div>
-      </form>
+      </div>
+      {children}
+      <div className="card">
+        <div>
+          <img
+            className="profile"
+            alt=""
+            src="https://picsum.photos/200/300"
+          ></img>
+          <h3>Aphinan Thongpho</h3>
+          <div className="contents">
+            <p>Email : aphinan_th@kkumail.com</p>
+            <p>Phone : 0938953518</p>
+            <p>Bank : KrungThai</p>
+          </div>
+        </div>
+        <div className="btn-logOut">
+          Log Out
+          <MdLogout />
+        </div>
+      </div>
     </div>
   );
 }
