@@ -5,6 +5,7 @@ import Login from "../page/login";
 import Register from "../page/register";
 import History from "../page/history";
 import Order from "../page/order";
+import Profile from "../page/profile";
 
 function Layout() {
   return (
@@ -14,6 +15,7 @@ function Layout() {
       <Route path="/register" key={"register"} element={<Register />} />
       <Route path="/history" key={"history"} element={<History />} />
       <Route path="/order" key={"order"} element={<Order />} />
+      <Route path="/profile" key={"profile"} element={<Profile />} /> 
     </Routes>
   );
 }
