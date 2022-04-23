@@ -14,9 +14,9 @@ function LoginPage() {
         setPassword(e.target.value);
     }
 
-    // const onSubmit = (e) => {
-    //     console.log(e.target.value)
-    // }
+    const onSubmit = (e) => {
+        console.log(e.target.value)
+    }
     const onEmailSubmit = (e) => {
         console.log(document.getElementById("myEmail").value);
     }
@@ -67,7 +67,7 @@ function LoginPage() {
                 className="rainbow-m-around_medium" 
                 id="submit-button"
                 placeholder="submit"
-                onClick={onClick}
+                onClick={onSubmit}
             />
             <textPath className = "myactionLabel"onClick={onClickregister}>Register</textPath>
         </form>
