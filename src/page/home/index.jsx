@@ -1,9 +1,8 @@
 import React from "react";
 import "./index.css";
-import Assign from "../assign"
 
 function Home() {
-  return<div></div>;
+  return<div>hjk</div>;
 }
 
 export default Home;

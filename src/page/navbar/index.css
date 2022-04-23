@@ -1,4 +1,4 @@
-.container {
+.container-nav {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.circle {
+.circle-nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,15 +19,15 @@
   cursor: pointer;
 }
 
-.circle:hover {
+.circle-nav:hover {
   box-shadow: inset rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
-.form > *:hover {
+.form-nav > *:hover {
   color: gray;
 }
 
-.form {
+.form-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +37,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
-.card {
+.card-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -48,7 +48,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
-.profile {
+.profile-nav {
   width: 7vw;
   height: 7vw;
   margin: 2rem;
@@ -56,13 +56,13 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
 }
 
-.contents {
+.contents-nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.btn-logOut {
+.btn-logOut-nav {
   display: flex;
   margin: 3rem;
   background-color: white;
@@ -75,8 +75,10 @@
   gap: 1rem;
 }
 
-.btn-logOut:hover {
+.btn-logOut-nav:hover {
   box-shadow: inset 2px 2px 10px 2px rgba(0, 0, 0, 0.1),
     -2px -2px 10px 2px rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
+
+

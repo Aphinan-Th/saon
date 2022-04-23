@@ -1,0 +1,65 @@
+.container-log {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-image: url("https://picsum.photos/200");
+}
+.form-log {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 360px;
+    background-color:azure;
+    border-radius: 16px; /*ขอบมน*/
+    padding: 32px; /*ระหว่างขอบกับตัวหนังสือด้านใน ใส่2ค่า = บนล่าง ซ้ายขวา*/
+    /* justify-content:center; */
+    /* justify-items: center; */
+    /* margin-left: 575px; */
+
+}
+.myInputer-log{
+    text-align: left;
+    border-radius: 50px;
+    /* border-color: rgb(96, 174, 233); */
+    border: 15px;
+    padding: 15px;
+    outline-width: 10px;
+}
+
+.myLabel-log{
+    margin-top: 16px; 
+    margin-left: 16px;
+    text-align: left;
+}
+.myButton-log{
+    border-radius: 50px;
+    background-color: rgb(181, 112, 255);
+    margin-top : 16px;
+    border: 50px;
+    cursor: pointer;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    
+}
+.myButton-log:hover{
+    background-color:rgb(3, 34, 46);
+}
+
+.myactionLabel-log {
+    margin-top: 12px; 
+    margin-left: 42%;
+    width: 0%;
+    color: #999;
+}
+
+.myactionLabel-log:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#submit-button{
+    margin-top: 16px;
+}
