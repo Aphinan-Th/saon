@@ -1,13 +1,13 @@
-import React from "react";
-import "./assign.css";
-import {
-  Table,
-  Column,
-  ButtonGroup,
-  ButtonIcon,
-  Badge,
-  MenuItem,
-} from "react-rainbow-components";
+// import React from "react";
+// import "./assign.css";
+// import {
+//   Table,
+//   Column,
+//   ButtonGroup,
+//   ButtonIcon,
+//   Badge,
+//   MenuItem,
+// } from "react-rainbow-components";
 // function LoginPage() {
 //   const [email, setEmail] = React.useState();
 //   const [password, setPassword] = React.useState();
@@ -20,50 +20,50 @@ import {
 //   React.useEffect(() => {
 //       console.log({email, password});
 //   }, [email, password]);
-function Assign({ title }) {
-  const onClick = () => {
-    console.log("Clicked");
-  };
-  const onApprove = () => {
-    console.log("approve");
-  };
+// function Assign({ title }) {
+//   const onClick = () => {
+//     console.log("Clicked");
+//   };
+//   const onApprove = () => {
+//     console.log("approve");
+//   };
 
-  return (
-    <div className="container">
-      {title}
-      <form className="form">
-        <div className="circle">First page</div>
-        <div className="circle">รับงาน</div>
-        <div className="circle">จ้างงาน</div>
-        <div className="circle"></div>
-      </form>
-      <header className="header">
-        <h1>Assign Page</h1>
-      </header>
-      <assign className="assign">
-        <h2>งานที่จ้าง</h2>
-        <Table keyField="id" /*data={DataTable}*/>
-          <Column header="Name" field="name" onClick={onApprove}>
-            <button type="submit" onClick={onApprove}></button>
-          </Column>
-          <Column header="Status" field="status" /*component={StatusBadge}*/ />
-          <Column header="Email" field="email" />
-          <Column type="action">
-            <MenuItem
-              label="Edit"
-              onClick={(event, data) => console.log(`Edit ${data.name}`)}
-            />
-            <MenuItem
-              label="Delete"
-              onClick={(event, data) => console.log(`Delete ${data.name}`)}
-            />
-          </Column>
-        </Table>
-      </assign>
-    </div>
-  );
-}
-export default Assign;
+//   return (
+//     <div className="container">
+//       {title}
+//       <form className="form">
+//         <div className="circle">First page</div>
+//         <div className="circle">รับงาน</div>
+//         <div className="circle">จ้างงาน</div>
+//         <div className="circle"></div>
+//       </form>
+//       <header className="header">
+//         <h1>Assign Page</h1>
+//       </header>
+//       <assign className="assign">
+//         <h2>งานที่จ้าง</h2>
+//         <Table keyField="id" /*data={DataTable}*/>
+//           <Column header="Name" field="name" onClick={onApprove}>
+//             <button type="submit" onClick={onApprove}></button>
+//           </Column>
+//           <Column header="Status" field="status" /*component={StatusBadge}*/ />
+//           <Column header="Email" field="email" />
+//           <Column type="action">
+//             <MenuItem
+//               label="Edit"
+//               onClick={(event, data) => console.log(`Edit ${data.name}`)}
+//             />
+//             <MenuItem
+//               label="Delete"
+//               onClick={(event, data) => console.log(`Delete ${data.name}`)}
+//             />
+//           </Column>
+//         </Table>
+//       </assign>
+//     </div>
+//   );
+// }
+// export default Assign;
 
 {
   /* <block className="block">
