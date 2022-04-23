@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        
-        <Navbar><Layout /></Navbar>
+        <Navbar>
+          <Layout />
+        </Navbar>
       </Router>
     </div>
   );
