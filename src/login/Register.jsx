@@ -10,34 +10,41 @@ function LoginPage() {
 
     const onChangeUsername = (e) => {
         setEmail(e.target.value);
+        console.log(e.target.value)
     }
     const onChangeFirstName = (e) => {
+        console.log(e.target.value)
         setEmail(e.target.value);
     }
     const onChangeLastname = (e) => {
+        console.log(e.target.value)
         setEmail(e.target.value);
     }
     const onChangeEmail = (e) => {
+        console.log(e.target.value)
         setEmail(e.target.value);
     }
     const onChangePassword = (e) => {
+        console.log(e.target.value)
         setPassword(e.target.value);
     }
     const onChangePhoneNumber = (e) => {
+        console.log(e.target.value)
         setPassword(e.target.value);
     }
     const onChangeBankID = (e) => {
+        console.log(e.target.value)
         setEmail(e.target.value);
     }
     const onSubmit = (e) => {
-        console.log("submit");
+        console.log(document.getElementById("input-component-1"));
         const onChangeUsername = (e) => {
         setEmail(e.target.value);
     }
     }
-    React.useEffect(() => {
-        console.log("submit");
-    },[email,password]);
+    // React.useEffect(() => {
+    //     console.log("changed");
+    // },[email,password]);
 
   return (
     <div className="container">
@@ -46,7 +53,6 @@ function LoginPage() {
             <label className="myLabel">Username</label>
             <Input
                 type="string"
-                class = "mynewInput"
                 id="input-component-1"
                 placeholder="Username.."
                 onChange={onChangeUsername}

@@ -13,12 +13,21 @@ function LoginPage() {
     const onChangePassword = (e) => {
         setPassword(e.target.value);
     }
-    const onSubmit = (e) => {
-        console.log("submit");
+
+    // const onSubmit = (e) => {
+    //     console.log(e.target.value)
+    // }
+    const onEmailSubmit = (e) => {
+        console.log(document.getElementById("myEmail").value);
     }
-    React.useEffect(() => {
-        console.log("submit");
-    },[email,password]);
+
+    const onPasswordSubmit = (e)=> {
+        console.log(document.getElementById("myInputer").value)
+    }
+
+    // React.useEffect(() => {
+    //     console.log("submit");
+    // },[email,password]);
 
     const onClickregister = () => {
         console.log("registered")
@@ -26,10 +35,12 @@ function LoginPage() {
 
   return (
     <div className="container">
-        <form className='form' onSubmit={onSubmit}>
+        <form className='form'>
             <h1>Login</h1>
             <label className="myLabel">Email</label>
             <Input
+                onEmailSubmit = {onEmailSubmit}
+                id = "myEmail"
                 type="email"
                 placeholder="Email.."
                 onChange={onChangeEmail}
@@ -41,11 +52,13 @@ function LoginPage() {
             </label>
            
             <input 
+                onPasswordSubmit={onPasswordSubmit}
                 id = "myInputer"
                 label="Input Paassword"
                 placeholder="Password"
                 type="password"
                 className="rainbow-p-around_medium"
+                
             />
             
             <Button 
@@ -54,7 +67,7 @@ function LoginPage() {
                 className="rainbow-m-around_medium" 
                 id="submit-button"
                 placeholder="submit"
-                onClick={onSubmit}
+                onClick={onClick}
             />
             <textPath className = "myactionLabel"onClick={onClickregister}>Register</textPath>
         </form>
