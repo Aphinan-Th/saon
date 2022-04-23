@@ -45,7 +45,7 @@ function Register() {
         <h1 className="registerLabel">Register</h1>
         <label className="myLabel">Username</label>
         <Input
-          type="string"
+          type="text"
           class="mynewInput"
           id="input-component-1"
           placeholder="Username.."
@@ -54,7 +54,7 @@ function Register() {
         />
         <label className="myLabel">Firstname</label>
         <Input
-          type="string"
+          type="text"
           id="input-component-1"
           placeholder="Firstname."
           onChange={onChangeFirstName}
@@ -62,7 +62,7 @@ function Register() {
         />
         <label className="myLabel">Lastname</label>
         <Input
-          type="string"
+          type="text"
           id="input-component-1"
           placeholder="Lastname"
           onChange={onChangeLastname}
@@ -87,7 +87,7 @@ function Register() {
         />
         <label className="myLabel">Phone Number</label>
         <Input
-          type="string"
+          type="text"
           id="input-component-1"
           placeholder="Phone number"
           onChange={onChangePhoneNumber}
@@ -96,7 +96,7 @@ function Register() {
 
         <label className="myLabel">Bank</label>
         <Input
-          type="string"
+          type="text"
           id="input-component-1"
           placeholder="Bank ID"
           onChange={onChangeBankID}
