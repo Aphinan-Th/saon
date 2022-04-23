@@ -1,0 +1,86 @@
+.container-home {
+  width: 800px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-pic-home {
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 240px;
+  margin-right: 600px;
+}
+
+.form-home {
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(255, 255, 255, 0.1) 0 -5px 15px;
+  margin-top: 50px;
+  border-radius: 16px;
+  margin-right: 150px;
+}
+
+.label-home {
+  margin-top: 25px;
+  margin-left: 300px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.superlabel-home {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 30px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
+.my-photo-home {
+  border-radius: 16px;
+  margin-top: -190px;
+  /* margin-left: 10px; */
+  margin-right: 420px;
+}
+
+#bt-size-home {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 140px;
+  height: 80px;
+  border-radius: 20px;
+  /* margin-right: px; */
+  margin-left: 475px;
+  margin-top: -120px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(255, 255, 255, 0.1) 0 -5px 15px;
+}
+
+.bt-adder-home {
+  margin-top: 600px;
+  margin-right: -150px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: rgb(125, 233, 131);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(255, 255, 255, 0.1) 0 -5px 15px;
+}
+
+.bt-adder-home:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.icon-add-style {
+  margin-top: 20px;
+  color: aliceblue;
+}

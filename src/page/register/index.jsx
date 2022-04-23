@@ -118,7 +118,7 @@ function Register() {
                     className="rainbow-m-around_medium"
                     id="submit-button"
                     placeholder="submit"
-                    onClick={onSubmit}
+                    onClick={() => navigate("/login")}
                 />
 
                 <label className="myactionREGLabel-reg" onClick={() => navigate("/login")}>Back</label>
